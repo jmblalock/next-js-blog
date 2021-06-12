@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Nav from "../components/Nav";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Nav />
+      <Header />
       <Head>
         <title>Justin Blalock</title>
       </Head>
