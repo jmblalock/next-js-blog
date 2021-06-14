@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <div class="min-h-full">
+    <div className="min-h-full">
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
       <Link href="/experience">Experience</Link>
