@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <div className="">
+    <div className="container mx-auto text-carolina-blue">
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
       <Link href="/experience">Experience</Link>

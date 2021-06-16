@@ -6,6 +6,10 @@ module.exports = {
     extend: {
       colors: {
         "raisin-black": "#2A2D34",
+        "carolina-blue": "#009DDC",
+        "orange-pantone": "#F25430",
+        "dark-blue-grey": "#6761A8",
+        "green-cyan": "009B72",
       },
     },
   },
