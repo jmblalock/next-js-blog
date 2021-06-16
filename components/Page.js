@@ -2,7 +2,7 @@ import Header from "./Header";
 
 export default function Page({ children }) {
   return (
-    <div>
+    <div className="bg-raisin-black">
       <Header />
       {children}
     </div>
