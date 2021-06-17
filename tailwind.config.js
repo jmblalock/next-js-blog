@@ -9,7 +9,7 @@ module.exports = {
         "carolina-blue": "#009DDC",
         "orange-pantone": "#F25430",
         "dark-blue-grey": "#6761A8",
-        "green-cyan": "009B72",
+        "green-cyan": "#009B72",
       },
     },
   },
