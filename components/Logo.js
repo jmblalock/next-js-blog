@@ -8,7 +8,7 @@ export const Logo = () => {
   const onMouseLeave = () => setIsHovered(false);
   return (
     <div
-      className="flex items-center flex-shrink-0 mr-6 cursor-pointer"
+      className="cursor-pointer"
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
