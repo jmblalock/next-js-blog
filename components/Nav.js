@@ -1,44 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-
-const MyLogo = React.forwardRef(({ onClick, href }, ref) => {
-  return (
-    <a href={href} onClick={onClick} ref={ref}>
-      <Image src="/logo1.png" width={88} height={77} alt="logo" />
-    </a>
-  );
-});
-
-const MyLogoAlt = React.forwardRef(({ onClick, href }, ref) => {
-  return (
-    <a href={href} onClick={onClick} ref={ref}>
-      <Image src="/logo4.png" width={88} height={77} alt="logo" />
-    </a>
-  );
-});
+import { Logo } from "./Logo";
 
 export default function Nav() {
-  const [isShown, setIsShown] = useState(false);
-
   return (
     <nav className="flex items-center justify-between flex-wrap bg-raisin-black p-6">
-      <div
-        className="flex items-center flex-shrink-0 mr-6 cursor-pointer"
-        onMouseEnter={() => setIsShown(true)}
-        onMouseLeave={() => setIsShown(false)}
-      >
-        {isShown && (
-          <Link href="/">
-            <MyLogoAlt />
-          </Link>
-        )}
-        {!isShown && (
-          <Link href="/">
-            <MyLogo />
-          </Link>
-        )}
-      </div>
+      <Logo />
       <Link href="/about">
         <a className="text-carolina-blue hover:text-orange-pantone">About</a>
       </Link>
