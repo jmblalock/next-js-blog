@@ -26,7 +26,7 @@ export default class Typing extends React.Component {
   render() {
     return (
       <div className="wrap">
-        <h1>Typed.js</h1>
+        {/* <h1>Typed.js</h1> */}
         <div className="type-wrap">
           <span
             style={{ whiteSpace: "pre" }}
@@ -35,11 +35,11 @@ export default class Typing extends React.Component {
             }}
           />
         </div>
-        <button onClick={() => this.typed.toggle()}>Toggle</button>
+        {/* <button onClick={() => this.typed.toggle()}>Toggle</button>
         <button onClick={() => this.typed.start()}>Start</button>
         <button onClick={() => this.typed.stop()}>Stop</button>
         <button onClick={() => this.typed.reset()}>Reset</button>
-        <button onClick={() => this.typed.destroy()}>Destroy</button>
+        <button onClick={() => this.typed.destroy()}>Destroy</button> */}
       </div>
     );
   }

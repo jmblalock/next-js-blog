@@ -2,7 +2,7 @@ import Typing from "../components/Typing";
 
 export default function Home() {
   return (
-    <div>
+    <div className="text-carolina-blue text-center text-7xl">
       <Typing
         strings={[
           "Hi, my name is",
@@ -10,7 +10,6 @@ export default function Home() {
           "I design and build things for the web.",
         ]}
       />
-      ,
     </div>
   );
 }
