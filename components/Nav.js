@@ -4,10 +4,10 @@ import { Logo } from "./Logo";
 
 export default function Nav() {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-raisin-black p-6">
+    <nav className="flex items-center justify-between flex-wrap bg-raisin-black p-6 border-b-2 border-carolina-blue">
       <Logo />
       <Link href="/about">
-        <a className="text-carolina-blue hover:text-orange-pantone">About</a>
+        <a className="text-carolina-blue hover:text-orange-pantone">About Me</a>
       </Link>
       <Link href="/experience">
         <a className="text-carolina-blue hover:text-orange-pantone">

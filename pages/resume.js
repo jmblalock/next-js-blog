@@ -1,3 +1,3 @@
 export default function Resume() {
-  return <div>Resume Page</div>;
+  return <div className="m-36 text-2xl text-gray-400">Resume Page</div>;
 }

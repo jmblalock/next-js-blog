@@ -11,7 +11,7 @@ export default class Typing extends React.Component {
       strings: strings,
       typeSpeed: 50,
       backSpeed: 50,
-      loop: true,
+      loop: false,
     };
     // this.el refers to the <span> in the render() method
     this.typed = new Typed(this.el, options);

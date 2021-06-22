@@ -8,7 +8,7 @@ export const Logo = () => {
   const onMouseLeave = () => setIsHovered(false);
   return (
     <div
-      className="cursor-pointer"
+      className="cursor-pointer w-2/4"
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
