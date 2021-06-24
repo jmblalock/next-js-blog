@@ -1,19 +1,20 @@
 import Typing from "../components/Typing";
 import Link from "next/link";
+import Triangle from "../components/Triangle";
 
 export default function Home() {
   return (
     <>
-      <div className="text-green-cyan text-center text-6xl m-36 font-mono">
+      <h1 className="text-green-cyan text-center text-4xl m-36 font-mono">
         <Typing
           strings={[
             "Hi, my name is",
             "Justin Blalock.",
-            "I build things for the web.",
+            "I design and code things for the web.",
           ]}
         />
-      </div>
-      <div className="m-36 mb-12 text-2xl text-gray-400">
+      </h1>
+      <div className="m-36 mb-12 text-xl text-gray-400">
         I'm an Austin-based software engineer who specializes in designing and
         bulding digital experiences. Currently, I am seeking a full-time
         position as a front-end developer.
@@ -23,6 +24,9 @@ export default function Home() {
           Get In Touch
         </a>
       </Link>
+      <div className="m-36 text-2xl text-gray-400">
+        <Triangle />
+      </div>
     </>
   );
 }
