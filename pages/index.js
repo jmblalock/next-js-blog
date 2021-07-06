@@ -1,6 +1,10 @@
 import Typing from "../components/Typing";
 import Link from "next/link";
 import Triangle from "../components/Triangle";
+import About from "./about";
+import Experience from "./experience";
+import Work from "./work";
+import Contact from "./contact";
 
 export default function Home() {
   return (
@@ -14,19 +18,22 @@ export default function Home() {
           ]}
         />
       </h1>
-      <div className="m-36 mb-12 text-xl text-gray-400">
+      <div className="m-36 mb-12 text-xl text-center text-gray-400">
         I'm an Austin-based software engineer who specializes in designing and
         bulding digital experiences. Currently, I am seeking a full-time
         position as a front-end developer.
       </div>
-      <Link href="mailto:justin.m.blalock@gmail.com">
-        <a className="mt-0 m-36 px-4 py-4 leading-none border rounded text-carolina-blue border-orange-pantone hover:text-orange-pantone">
-          Get In Touch
-        </a>
-      </Link>
-      <div className="m-36 text-2xl text-gray-400">
-        <Triangle />
+      <div className="flex justify-items-centerr">
+        <Link href="mailto:justin.m.blalock@gmail.com">
+          <a className="mt-0 m-36 px-4 py-4 leading-none border rounded text-carolina-blue border-orange-pantone hover:text-orange-pantone flex-auto">
+            Get In Touch
+          </a>
+        </Link>
       </div>
+      <About />
+      <Experience />
+      <Work />
+      <Contact />
     </>
   );
 }
