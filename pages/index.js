@@ -1,17 +1,10 @@
 import Typing from "../components/Typing";
 import Link from "next/link";
-import Container from "../components/Container";
-import Triangle from "../components/Triangle";
-import About from "./about";
-import Experience from "./experience";
-import Work from "./work";
-import Contact from "./contact";
 
 export default function Home() {
   return (
     <>
-      <Container>Hello</Container>
-      <div className="m-36">
+      <div className="container mx-auto py-12 px-6 xsm:px-8 md:px-12 md:py-24">
         <h1 className="py-4 text-green-cyan text-4xl font-mono">
           <Typing
             strings={[
@@ -21,6 +14,9 @@ export default function Home() {
             ]}
           />
         </h1>
+        <span className="py-4 text-green-cyan text-4xl font-mono">
+          Full Stack Engineer
+        </span>
         <p className="py-4 text-xl text-gray-400">
           I'm an Austin-based software engineer who specializes in designing and
           bulding digital experiences. Currently, I am seeking a full-time
@@ -33,11 +29,6 @@ export default function Home() {
             </a>
           </Link>
         </div>
-
-        {/* <About />
-      <Experience />
-      <Work />
-      <Contact /> */}
       </div>
     </>
   );

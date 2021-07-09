@@ -1,11 +1,9 @@
 export default function About() {
   return (
-    <div className="m-36 text-2xl text-gray-400">
-      <p>
-        I'm a Austin-based developer who specializes in designing and building
-        exceptional digital experiences. Currently, I'm seeking full-time
-        employment as a software engineer.
-      </p>
-    </div>
+    <p className="m-36 py-4 text-xl text-gray-400">
+      I'm an Austin-based software engineer who specializes in designing and
+      bulding digital experiences. Currently, I am seeking a full-time position
+      as a front-end developer.
+    </p>
   );
 }
