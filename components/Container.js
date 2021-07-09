@@ -1,6 +1,6 @@
 export default function Container({ children }) {
   return (
-    <div className="container mx-auto py-12 px-6 xsm:px-8 md:px-12 md:py-24">
+    <div className="container mx-auto py-12 px-6 xsm:px-8 md:px-12 md:py-24 bg-raisin-black">
       {children}
     </div>
   );

@@ -1,9 +1,12 @@
+import Container from "../components/Container";
+
 export default function About() {
   return (
-    <p className="m-36 py-4 text-xl text-gray-400">
-      I'm an Austin-based software engineer who specializes in designing and
-      bulding digital experiences. Currently, I am seeking a full-time position
-      as a front-end developer.
-    </p>
+    <div className="bg-raisin-black">
+      <Container>
+        <h2 className="text-green-cyan text-4xl font-mono">About Me</h2>
+        <p className="text-xl text-gray-400"></p>
+      </Container>
+    </div>
   );
 }
