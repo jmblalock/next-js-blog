@@ -19,9 +19,18 @@ export default function About() {
         </a>{" "}
         - coincidentally, I ended up learning a great deal about{" "}
         <CodeTag>JavaScript</CodeTag>, <CodeTag>HTML</CodeTag> &{" "}
-        <CodeTag>CSS</CodeTag> by helping with a new project in a short amount
-        of time.
+        <CodeTag>CSS</CodeTag> by helping build a new project from scratch in a
+        short amount of time.
       </p>
+      <picture className="">
+        <img
+          width="300"
+          height="300"
+          className="rounded-full"
+          src="/avatar.jpeg"
+          alt="My Avatar"
+        />
+      </picture>
     </Container>
   );
 }
