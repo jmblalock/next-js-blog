@@ -26,7 +26,14 @@ export default function About() {
         <picture className="">
           <img
             className="rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
-            src="/avatar.jpeg"
+            src="/images/avatar.jpeg"
+            alt="My Avatar"
+          />
+        </picture>
+        <picture className="">
+          <img
+            className="rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
+            src="/images/remy.jpeg"
             alt="My Avatar"
           />
         </picture>
