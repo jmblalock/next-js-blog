@@ -25,10 +25,10 @@ export default function Home() {
       </div>
       <p className="pt-12 leading-7 tracking-wider text-2xl text-gray-400">
         I'm an Austin-based software engineer who specializes in designing and
-        bulding exceptional digital experiences. <br />
-        Currently, I am pursuing <CodeTag>React</CodeTag>,{" "}
-        <CodeTag>Node.js</CodeTag>, <CodeTag>GraphQL</CodeTag>, and{" "}
-        <CodeTag>TypeScript</CodeTag> based projects.
+        bulding exceptional digital experiences. Currently, I am pursuing{" "}
+        <CodeTag>React</CodeTag>, <CodeTag>Node.js</CodeTag>,{" "}
+        <CodeTag>GraphQL</CodeTag>, and <CodeTag>TypeScript</CodeTag> based
+        projects.
       </p>
       <div className="flex pt-12">
         <Link href="mailto:justin.m.blalock@gmail.com">

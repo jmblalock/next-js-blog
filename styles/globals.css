@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  @apply bg-raisin-black;
-} */
+@layer base {
+  body {
+    @apply bg-raisin-black;
+  }
+}
+
+@layer components {
+  li::before {
+    content: "▹";
+    color: #009ddc;
+  }
+}
