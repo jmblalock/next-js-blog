@@ -1,5 +1,6 @@
 import Container from "../components/Container";
 import CodeTag from "../components/CodeTag";
+import ImageWrapper from "../components/ImageWrapper";
 
 export default function About() {
   return (
@@ -23,22 +24,24 @@ export default function About() {
           <CodeTag>CSS</CodeTag> by working on a team developing a new project
           from scratch in a short amount of time.
         </p>
-        <div className="z-0 w-full wrapper order-2 md:order-2">
-          <picture className="">
+        <div className="wrapper order-2 md:order-2">
+          <picture className="z-10">
             <img
-              className="z-10 w-full rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
+              className="rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
               src="/images/avatar.jpeg"
               alt="My Avatar"
             />
           </picture>
         </div>
-        <picture className="order-4 md:order-3">
-          <img
-            className="rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
-            src="/images/remy.jpeg"
-            alt="Remy"
-          />
-        </picture>
+        <div className="wrapper order-4 md:order-3">
+          <picture className="order-4 md:order-3">
+            <img
+              className="rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
+              src="/images/remy.jpeg"
+              alt="Remy"
+            />
+          </picture>
+        </div>
         <p className="order-3 md:order-4 md:self-center md:col-span-3 tracking-wider text-xl text-gray-400">
           When I'm not coding, I enjoy traveling, biking, snowboarding and
           adventuring with my beautiful wife and our two troublemakers, Remy and
@@ -67,13 +70,15 @@ export default function About() {
             </li>
           </ul>
         </div>
-        <picture className="order-6 md:order-6">
-          <img
-            className="rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
-            src="/images/quincy.jpeg"
-            alt="Quincy"
-          />
-        </picture>
+        <div className="wrapper order-6 md:order-6">
+          <picture className="order-6 md:order-6">
+            <img
+              className="rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
+              src="/images/quincy.jpeg"
+              alt="Quincy"
+            />
+          </picture>
+        </div>
       </div>
     </Container>
   );

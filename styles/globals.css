@@ -44,7 +44,8 @@
     border-radius: 50%;
     border: 2px solid #009ddc;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-    top: 20px;
-    left: 20px;
+    top: 1px;
+    left: 1px;
+    z-index: -1;
   }
 }
