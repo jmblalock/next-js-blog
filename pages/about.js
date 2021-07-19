@@ -49,22 +49,22 @@ export default function About() {
         <div className="order-5 md:order-5 md:self-center md:col-span-3 tracking-wider text-xl text-gray-400">
           Here are a few technologies I've been working with recently:
           <ul className="grid grid-cols-2 pt-4">
-            <li>
+            <li className="codeBullet">
               <CodeTag>JavaScript(ES6+)</CodeTag>
             </li>
-            <li>
+            <li className="codeBullet">
               <CodeTag>React</CodeTag>
             </li>
-            <li>
+            <li className="codeBullet">
               <CodeTag>GraphQL</CodeTag>
             </li>
-            <li>
+            <li className="codeBullet">
               <CodeTag>TailwindCSS</CodeTag>
             </li>
-            <li>
+            <li className="codeBullet">
               <CodeTag>Typescript</CodeTag>
             </li>
-            <li>
+            <li className="codeBullet">
               <CodeTag>Node.js</CodeTag>
             </li>
           </ul>

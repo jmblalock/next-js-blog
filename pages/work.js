@@ -7,6 +7,11 @@ export default function Workxperience() {
         Some Things I've Built
       </h2>
       <p className="text-2xl text-gray-400"></p>
+      <ul>
+        <li>project 1</li>
+        <li>project 2</li>
+        <li>project 3</li>
+      </ul>
     </Container>
   );
 }

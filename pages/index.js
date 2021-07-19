@@ -14,7 +14,9 @@ export default function Home() {
           <Typing
             strings={[
               "Justin Blalock",
-              "I design and code things for the web.",
+              "I design and",
+              "code things",
+              "for the web.",
               "Justin Blalock",
             ]}
           />
