@@ -18,9 +18,9 @@
     box-shadow: 0 10px 30px -15px #009ddc;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     display: block;
+    position: relative;
     width: 100%;
     background-color: #009ddc;
-    position: relative;
   }
   .wrapper::before {
     content: "";

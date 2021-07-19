@@ -1,6 +1,5 @@
 import Container from "../components/Container";
 import CodeTag from "../components/CodeTag";
-import ImageWrapper from "../components/ImageWrapper";
 
 export default function About() {
   return (
@@ -27,7 +26,7 @@ export default function About() {
         <div className="wrapper order-2 md:order-2">
           <picture className="z-10">
             <img
-              className="rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
+              className="rounded-full border border-transparent"
               src="/images/avatar.jpeg"
               alt="My Avatar"
             />
@@ -36,7 +35,7 @@ export default function About() {
         <div className="wrapper order-4 md:order-3">
           <picture className="order-4 md:order-3">
             <img
-              className="rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
+              className="rounded-full border border-transparent"
               src="/images/remy.jpeg"
               alt="Remy"
             />
@@ -73,7 +72,7 @@ export default function About() {
         <div className="wrapper order-6 md:order-6">
           <picture className="order-6 md:order-6">
             <img
-              className="rounded-full border border-transparent hover:ring-4 hover:ring-dark-blue-grey"
+              className="rounded-full border border-transparent"
               src="/images/quincy.jpeg"
               alt="Quincy"
             />

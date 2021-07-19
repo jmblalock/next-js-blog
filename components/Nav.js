@@ -9,11 +9,6 @@ export default function Nav() {
       <Link href="/about">
         <a className="text-carolina-blue hover:text-orange-pantone">About Me</a>
       </Link>
-      <Link href="/experience">
-        <a className="text-carolina-blue hover:text-orange-pantone">
-          Experience
-        </a>
-      </Link>
       <Link href="/work">
         <a className="text-carolina-blue hover:text-orange-pantone">Work</a>
       </Link>
