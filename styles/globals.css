@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-  body {
+  /* body {
     @apply bg-raisin-black;
-  }
+  } */
 }
 
 @layer components {
@@ -47,5 +47,9 @@
     top: 1px;
     left: 1px;
     z-index: -1;
+  }
+  .project-description {
+    box-shadow: 0 10px 30px -15px #292743;
+    background-color: #292743;
   }
 }
