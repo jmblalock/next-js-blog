@@ -9,7 +9,7 @@
 }
 
 @layer components {
-  .codeBullet::before {
+  .blue-bullet::before {
     content: "▹";
     color: #009ddc;
   }

@@ -4,9 +4,9 @@ import CodeTag from "../components/CodeTag";
 export default function About() {
   return (
     <Container>
-      <h2 className="text-green-cyan text-4xl font-mono">About Me</h2>
+      <h2 className="text-green-cyan text-4xl font-mono mb-12">About Me</h2>
       <div className="grid gap-8 md:grid-cols-4 ">
-        <p className="order-1 md:order-1 md:self-center md:col-span-3 pt-12 tracking-wider text-xl text-gray-400">
+        <p className="order-1 md:order-1 md:self-center md:col-span-3 tracking-wider text-xl text-gray-400">
           Hello! My name is Justin and I enjoy designing and creating things
           that live on the internet. My interest in development started back in
           2017 when I participated in my first{" "}
@@ -49,22 +49,22 @@ export default function About() {
         <div className="order-5 md:order-5 md:self-center md:col-span-3 tracking-wider text-xl text-gray-400">
           Here are a few technologies I've been working with recently:
           <ul className="grid grid-cols-2 pt-4">
-            <li className="codeBullet">
+            <li className="blue-bullet">
               <CodeTag>JavaScript(ES6+)</CodeTag>
             </li>
-            <li className="codeBullet">
+            <li className="blue-bullet">
               <CodeTag>React</CodeTag>
             </li>
-            <li className="codeBullet">
+            <li className="blue-bullet">
               <CodeTag>GraphQL</CodeTag>
             </li>
-            <li className="codeBullet">
+            <li className="blue-bullet">
               <CodeTag>TailwindCSS</CodeTag>
             </li>
-            <li className="codeBullet">
+            <li className="blue-bullet">
               <CodeTag>Typescript</CodeTag>
             </li>
-            <li className="codeBullet">
+            <li className="blue-bullet">
               <CodeTag>Node.js</CodeTag>
             </li>
           </ul>

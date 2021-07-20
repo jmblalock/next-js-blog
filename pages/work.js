@@ -8,9 +8,25 @@ export default function Workxperience() {
       </h2>
       <p className="text-2xl text-gray-400"></p>
       <ul>
-        <li>project 1</li>
-        <li>project 2</li>
-        <li>project 3</li>
+        <li className="grid grid-cols-12">
+          <div>
+            project content
+            <div>
+              <p>project-overline</p>
+              <h3>project title</h3>
+              <div>project description</div>
+              <ul>
+                project-technology-list
+                <li>JavaScript</li>
+                <li>Python</li>
+              </ul>
+              <div>project-links</div>
+            </div>
+          </div>
+          <div>project-image</div>
+        </li>
+        <li>Sick Fits</li>
+        <li>Personal Website</li>
       </ul>
     </Container>
   );
