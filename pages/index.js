@@ -13,11 +13,11 @@ export default function Home() {
         <h1 className="py-4  text-gray-400 text-4xl font-mono">
           <Typing
             strings={[
-              "Justin Blalock",
+              "Justin Blalock.",
               "I design and",
               "code things",
               "for the web.",
-              "Justin Blalock",
+              "Justin Blalock,",
             ]}
           />
         </h1>
