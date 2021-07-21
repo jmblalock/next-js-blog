@@ -52,4 +52,8 @@
     box-shadow: 0 10px 30px -15px #292743;
     background-color: #292743;
   }
+  a:hover,
+  a:focus {
+    color: #009ddc;
+  }
 }

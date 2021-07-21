@@ -14,9 +14,9 @@ export const Logo = () => {
     >
       <MyLink href="/">
         {isHovering ? (
-          <Image src="/logo4.png" width={88} height={77} alt="logo" />
+          <Image src="/favicons/logo4.png" width={88} height={77} alt="logo" />
         ) : (
-          <Image src="/logo1.png" width={88} height={77} alt="logo" />
+          <Image src="/favicons/logo1.png" width={88} height={77} alt="logo" />
         )}
       </MyLink>
     </div>

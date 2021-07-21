@@ -1,5 +1,6 @@
 import Container from "../components/Container";
 import CodeTag from "../components/CodeTag";
+import Image from "next/image";
 
 export default function Workxperience() {
   return (
@@ -50,14 +51,25 @@ export default function Workxperience() {
                   aria-label="GitHub Link"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className=""
                 >
-                  <img src="public/GitHub-Mark-Light-64px.png"></img>
+                  {/* <div className="h-10 w-10 relative stroke-current">
+                    <Image
+                      src="/octocat.svg"
+                      alt="GitHub Link"
+                      layout="fill"
+                      objectFit="cover"
+                    ></Image>
+                  </div> */}
+                  {/* <img src="/octocat.svg" alt="testing stuff" className="" /> */}
+                  {/* try component approach */}
                 </a>
-                <a>
-                  <svg>
-                    <title></title>
-                  </svg>
-                </a>
+                <a
+                  href="https://github.com/jmblalock/exploring-odyssey"
+                  aria-label="GitHub Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                ></a>
               </div>
             </div>
             <div>project-image</div>
