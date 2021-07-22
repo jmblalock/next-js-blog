@@ -25,7 +25,7 @@ export default function Workxperience() {
                   Wayfarer
                 </a>
               </h3>
-              <div className="project-description relative z-20 p-6 rounded text-lg">
+              <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg">
                 <p className="m-0">
                   Interactive traveling blog to post articles and learn from
                   other user's experiences. Wayfarer also offers an internal API
@@ -33,24 +33,24 @@ export default function Workxperience() {
                   info before you next vacation!
                 </p>
               </div>
-              <ul className="flex flex-row flex-wrap content-center relative justify-end z-20 mt-6 mb-2.5 p-0 list-none">
-                <li className="mb-1.5 ml-5 whitespace-normal">
+              <ul className="project-tech-list flex flex-wrap justify-start md:justify-end relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
+                <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
                   <CodeTag>Python</CodeTag>
                 </li>
-                <li className="mb-1.5 ml-5 whitespace-normal">
+                <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
                   <CodeTag>Django</CodeTag>
                 </li>
-                <li className="mb-1.5 ml-5 whitespace-normal">
+                <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
                   <CodeTag>PostgreSQL</CodeTag>
                 </li>
               </ul>
-              <div className="flex justify-end items-center relative ml-0 -mr-2.5 mt-2.5">
+              <div className="project-links flex justify-start md:justify-end items-center relative mr-0 -ml-2.5 md:ml-0 md:-mr-2.5 mt-2.5">
                 <a
                   href="https://github.com/jmblalock/exploring-odyssey"
                   aria-label="GitHub Link"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="p-2.5 hover:text-carolina-blue"
+                  className="flex items-center justify-center relative p-2.5 hover:text-carolina-blue"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ export default function Workxperience() {
                   aria-label="Heroku Deployment"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="p-2.5 hover:text-carolina-blue"
+                  className="flex items-center justify-center relative p-2.5 hover:text-carolina-blue"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -88,18 +88,19 @@ export default function Workxperience() {
               </div>
             </div>
           </div>
-          <div className="project-image col-start-1 col-span-6 row-span-full relative z-10">
+          <div className="project-image h-full col-start-1 col-span-full md:col-end-8 row-span-full relative z-10">
             <a
               href="https://eo-wayfarer.herokuapp.com/"
               rel="noopener noreferrer"
               target="_blank"
-              className="relative inline-block no-underline z-10 bg-carolina-blue rounded align-middle cursor-pointer h-full w-full"
+              className="relative inline-block no-underline z-10 bg-carolina-blue align-middle cursor-pointer h-full w-full"
             >
-              <div className="h-full w-full relative">
+              <div className="image-wrapper inline-block max-w-full h-full w-full overflow-hidden relative">
                 <Image
                   src="/images/wayfarer.png"
                   layout="fill"
                   objectFit="cover"
+                  className=""{/* TODO */}
                 ></Image>
               </div>
             </a>
