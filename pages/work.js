@@ -100,7 +100,7 @@ export default function Workxperience() {
                   src="/images/wayfarer.png"
                   layout="fill"
                   objectFit="cover"
-                  className=""{/* TODO */}
+                  // className="" TODO
                 ></Image>
               </div>
             </a>
