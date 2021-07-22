@@ -5,20 +5,19 @@ import Image from "next/image";
 export default function Workxperience() {
   return (
     <Container>
-      <h2 className="text-green-cyan text-4xl font-mono mb-12">
+      <h2 className="flex items-center opacity-100 text-green-cyan text-4xl font-mono mt-2.5 mb-10">
         Some things I've built
       </h2>
-      <p className="text-2xl text-gray-400"></p>
       <ul className="text-2xl text-gray-400">
-        <li className="grid grid-cols-12 gap-2.5 mb-24">
-          <div className="col-start-7 col-span-6 text-right relative row-span-full">
-            <div className="text-right">
-              <p className="m-2.5 text-carolina-blue text-base font-normal">
+        <li className="grid grid-cols-12 gap-2.5 items-center relative visible mb-8 md:mb-24">
+          <div className="project-content flex flex-col h-full justify-center pb-5 px-6 pt-6 col-span-full row-span-full md:col-start-7 md:col-span-6 text-left md:text-right relative  z-50">
+            <div>
+              <p className="project-overline my-2.5 md:m-2.5 text-carolina-blue text-base font-normal">
                 Featured Project
               </p>
-              <h3 className="mb-5">
+              <h3 className="project-title mb-2.5 md:mb-5">
                 <a
-                  className="hover:text-carolina-blue"
+                  className="inline-block static hover:text-carolina-blue z-10"
                   href="https://eo-wayfarer.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
