@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --black: #2a2d34;
+  --blue: #009ddc;
+  --orange: #f25430;
+  --green: #009b72;
+  --purple: #6761a8;
+  --dark-purple: #292743;
+  --slate: #8892b0;
+}
+
 @layer base {
   body {
     @apply bg-raisin-black;
@@ -11,16 +21,16 @@
 @layer components {
   .blue-bullet::before {
     content: "▹";
-    color: #009ddc;
+    color: var(--blue);
   }
   .wrapper {
     border-radius: 50%;
-    box-shadow: 0 10px 30px -15px #009ddc;
+    box-shadow: 0 10px 30px -15px var(--blue);
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     display: block;
     position: relative;
     width: 100%;
-    background-color: #009ddc;
+    background-color: var(--blue);
   }
   .wrapper::before {
     content: "";
@@ -30,7 +40,7 @@
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: #2a2d34;
+    background-color: var(--black);
     mix-blend-mode: screen;
     border-radius: 50%;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -42,17 +52,28 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 2px solid #009ddc;
+    border: 2px solid var(--blue);
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     top: 1px;
     left: 1px;
     z-index: -1;
   }
   .project-description {
-    box-shadow: 0 10px 30px -15px #292743;
-    background-color: #292743;
+    box-shadow: 0 10px 30px -15px var(--dark-purple);
   }
   .project-image {
-    box-shadow: 0 10px 30px -15px #292743;
+    box-shadow: 0 10px 30px -15px var(--dark-purple);
+  }
+  .project-image a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+    background-color: var(--black);
+    mix-blend-mode: screen;
+  }
+  .image-wrapper {
+    filter: grayscale(100%) contrast(1) brightness(80%);
   }
 }

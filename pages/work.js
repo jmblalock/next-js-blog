@@ -25,7 +25,7 @@ export default function Workxperience() {
                   Wayfarer
                 </a>
               </h3>
-              <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg">
+              <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-desaturated-blue">
                 <p className="m-0">
                   Interactive traveling blog to post articles and learn from
                   other user's experiences. Wayfarer also offers an internal API
@@ -57,11 +57,11 @@ export default function Workxperience() {
                     width="24"
                     height="24"
                     fill="currentColor"
-                    class="text-grey-400 hover:text-carolina-blue"
+                    className="text-grey-400 hover:text-carolina-blue"
                   >
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M12 2C6.477 2 2 6.463 2 11.97c0 4.404 2.865 8.14 6.839 9.458.5.092.682-.216.682-.48 0-.236-.008-.864-.013-1.695-2.782.602-3.369-1.337-3.369-1.337-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.069-.606.069-.606 1.003.07 1.531 1.027 1.531 1.027.892 1.524 2.341 1.084 2.91.828.092-.643.35-1.083.636-1.332-2.22-.251-4.555-1.107-4.555-4.927 0-1.088.39-1.979 1.029-2.675-.103-.252-.446-1.266.098-2.638 0 0 .84-.268 2.75 1.022A9.606 9.606 0 0112 6.82c.85.004 1.705.114 2.504.336 1.909-1.29 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.638.64.696 1.028 1.587 1.028 2.675 0 3.83-2.339 4.673-4.566 4.92.359.307.678.915.678 1.846 0 1.332-.012 2.407-.012 2.734 0 .267.18.577.688.48C19.137 20.107 22 16.373 22 11.969 22 6.463 17.522 2 12 2z"
                     ></path>
                   </svg>
@@ -77,7 +77,7 @@ export default function Workxperience() {
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
-                    class="text-grey-400 hover:text-carolina-blue"
+                    className="text-grey-400 hover:text-carolina-blue"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -95,12 +95,11 @@ export default function Workxperience() {
               target="_blank"
               className="relative inline-block no-underline z-10 bg-carolina-blue align-middle cursor-pointer h-full w-full"
             >
-              <div className="image-wrapper inline-block max-w-full h-full w-full overflow-hidden relative">
+              <div className="image-wrapper inline-block max-w-full h-full w-full overflow-hidden relative align-middle">
                 <Image
                   src="/images/wayfarer.png"
                   layout="fill"
                   objectFit="cover"
-                  // className="" TODO
                 ></Image>
               </div>
             </a>
