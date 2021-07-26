@@ -58,6 +58,16 @@
     left: 1px;
     z-index: -1;
   }
+  .project-title a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+  }
   .project-description {
     box-shadow: 0 10px 30px -15px var(--dark-purple);
   }
