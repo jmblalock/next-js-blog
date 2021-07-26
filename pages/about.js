@@ -50,7 +50,7 @@ export default function About() {
           Here are a few technologies I've been working with recently:
           <ul className="grid grid-cols-2 pt-4">
             <li className="blue-bullet">
-              <CodeTag>JavaScript(ES6+)</CodeTag>
+              <CodeTag>JavaScript</CodeTag>
             </li>
             <li className="blue-bullet">
               <CodeTag>React</CodeTag>

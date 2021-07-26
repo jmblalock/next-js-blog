@@ -9,7 +9,10 @@
   --green: #009b72;
   --purple: #6761a8;
   --dark-purple: #292743;
+  --dark-blue: #003f58;
   --slate: #8892b0;
+  --border-radius: 4px;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 @layer base {
@@ -19,6 +22,10 @@
 }
 
 @layer components {
+  a:hover,
+  a:focus {
+    color: var(--blue);
+  }
   .blue-bullet::before {
     content: "▹";
     color: var(--blue);
@@ -26,7 +33,7 @@
   .wrapper {
     border-radius: 50%;
     box-shadow: 0 10px 30px -15px var(--blue);
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: var(--transition);
     display: block;
     position: relative;
     width: 100%;
@@ -43,7 +50,7 @@
     background-color: var(--black);
     mix-blend-mode: screen;
     border-radius: 50%;
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: var(--transition);
   }
   .wrapper::after {
     content: "";
@@ -53,7 +60,7 @@
     height: 100%;
     border-radius: 50%;
     border: 2px solid var(--blue);
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: var(--transition);
     top: 1px;
     left: 1px;
     z-index: -1;
@@ -79,9 +86,26 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    transition: var(--transition);
     z-index: 30;
     background-color: var(--black);
     mix-blend-mode: screen;
+  }
+  .project-image a {
+    border-radius: var(--border-radius);
+  }
+  .project-image a:hover,
+  .project-image a:focus {
+    background: transparent;
+    outline: 0px;
+  }
+  .project-image a:hover::before,
+  .project-image a:focus::before,
+  .project-image a:hover .img,
+  .project-image a:focus .img {
+    background: transparent;
+    background-color: transparent;
+    filter: none;
   }
   .image-wrapper {
     filter: grayscale(100%) contrast(1) brightness(80%);

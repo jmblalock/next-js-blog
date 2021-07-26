@@ -25,7 +25,7 @@ export default function Workxperience() {
                   Wayfarer
                 </a>
               </h3>
-              <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-desaturated-blue">
+              <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-dark-purple">
                 <p className="m-0">
                   Interactive traveling blog to post articles and learn from
                   other user's experiences. Wayfarer also offers an internal API
@@ -93,9 +93,9 @@ export default function Workxperience() {
               href="https://eo-wayfarer.herokuapp.com/"
               rel="noopener noreferrer"
               target="_blank"
-              className="relative inline-block no-underline z-10 bg-carolina-blue align-middle cursor-pointer h-full w-full"
+              className="relative inline-block no-underline z-10 bg-dark-blue md:bg-carolina-blue align-middle cursor-pointer h-full w-full rounded"
             >
-              <div className="image-wrapper inline-block max-w-full h-full w-full overflow-hidden relative align-middle">
+              <div className="image-wrapper img inline-block max-w-full h-full w-full overflow-hidden relative align-middle rounded object-cover mix-blend-multiply">
                 <Image
                   src="/images/wayfarer.png"
                   layout="fill"
