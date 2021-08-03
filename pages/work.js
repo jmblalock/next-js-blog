@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Workxperience() {
   return (
     <Container>
-      <h2 className="flex items-center opacity-100 text-green-cyan text-4xl font-mono mt-2.5 mb-10">
+      <h2 className="flex items-center opacity-100 text-green-cyan text-4xl font-mono mt-2.5 mb-12">
         Some things I've built
       </h2>
       <ul className="text-2xl text-gray-400">
