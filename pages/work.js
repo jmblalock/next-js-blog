@@ -27,10 +27,9 @@ export default function Workxperience() {
               </h3>
               <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-dark-purple">
                 <p className="m-0">
-                  Interactive traveling blog to post articles and learn from
-                  other user's experiences. Wayfarer also offers an internal API
-                  hosting 60+ destinations including travel tips and important
-                  info before you next vacation!
+                  Interactive traveling blog. Post articles and learn from other
+                  user's experiences. Wayfarer has an internal API hosting 60+
+                  destinations for your next vacation!
                 </p>
               </div>
               <ul className="project-tech-list flex flex-wrap justify-start md:justify-end relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
@@ -123,8 +122,8 @@ export default function Workxperience() {
               </h3>
               <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-dark-purple">
                 <p className="m-0">
-                  Zip Code Collective is an online shopping experience focused
-                  on supporting local businesses.
+                  Zip Code Collective is an online shopping experience with a
+                  focus on supporting local businesses.
                 </p>
               </div>
               <ul className="project-tech-list flex flex-wrap justify-start md:justify-start relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
@@ -208,35 +207,30 @@ export default function Workxperience() {
               <h3 className="project-title mb-2.5 md:mb-5">
                 <a
                   className="inline-block static hover:text-carolina-blue z-10"
-                  href="https://eo-wayfarer.herokuapp.com/"
+                  href=""
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Wayfarer
+                  justinblalock.dev
                 </a>
               </h3>
               <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-dark-purple">
-                <p className="m-0">
-                  Interactive traveling blog to post articles and learn from
-                  other user's experiences. Wayfarer also offers an internal API
-                  hosting 60+ destinations including travel tips and important
-                  info before you next vacation!
-                </p>
+                <p className="m-0">My personal website and portfolio.</p>
               </div>
               <ul className="project-tech-list flex flex-wrap justify-start md:justify-end relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
                 <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
-                  <CodeTag>Python</CodeTag>
+                  <CodeTag>React</CodeTag>
                 </li>
                 <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
-                  <CodeTag>Django</CodeTag>
+                  <CodeTag>Next.js</CodeTag>
                 </li>
                 <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
-                  <CodeTag>PostgreSQL</CodeTag>
+                  <CodeTag>TailwindCSS</CodeTag>
                 </li>
               </ul>
               <div className="project-links flex justify-start md:justify-end items-center relative mr-0 -ml-2.5 md:ml-0 md:-mr-2.5 mt-2.5">
                 <a
-                  href="https://github.com/jmblalock/exploring-odyssey"
+                  href="https://github.com/jmblalock/next-js-blog"
                   aria-label="GitHub Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -257,7 +251,7 @@ export default function Workxperience() {
                   </svg>
                 </a>
                 <a
-                  href="https://eo-wayfarer.herokuapp.com/"
+                  href=""
                   aria-label="Heroku Deployment"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -280,14 +274,14 @@ export default function Workxperience() {
           </div>
           <div className="project-image h-full col-start-1 col-span-full md:col-end-8 row-span-full relative z-10">
             <a
-              href="https://eo-wayfarer.herokuapp.com/"
+              href=""
               rel="noopener noreferrer"
               target="_blank"
               className="relative inline-block no-underline z-10 bg-dark-blue md:bg-carolina-blue align-middle cursor-pointer h-full w-full rounded"
             >
               <div className="image-wrapper img inline-block max-w-full h-full w-full overflow-hidden relative align-middle rounded object-cover mix-blend-multiply">
                 <Image
-                  src="/images/wayfarer.png"
+                  src="/images/justinblalockdev.png"
                   layout="fill"
                   objectFit="cover"
                 ></Image>
