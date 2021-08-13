@@ -29,7 +29,7 @@ export default function Workxperience() {
                 <p className="m-0">
                   Interactive traveling blog. Post articles and learn from other
                   user's experiences. Wayfarer has an internal API hosting 60+
-                  destinations for your next vacation!
+                  destinations.
                 </p>
               </div>
               <ul className="project-tech-list flex flex-wrap justify-start md:justify-end relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
@@ -122,8 +122,10 @@ export default function Workxperience() {
               </h3>
               <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-dark-purple">
                 <p className="m-0">
-                  Zip Code Collective is an online shopping experience with a
-                  focus on supporting local businesses.
+                  Zip Code Collective (ZCC) is an online shopping experience
+                  with a focus on supporting local businesses. ZCC's frontend
+                  and backend are hosted on Heroku and DigitalOcean
+                  respectively.
                 </p>
               </div>
               <ul className="project-tech-list flex flex-wrap justify-start md:justify-start relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
@@ -132,6 +134,9 @@ export default function Workxperience() {
                 </li>
                 <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
                   <CodeTag>GraphQL</CodeTag>
+                </li>
+                <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
+                  <CodeTag>MongoDB</CodeTag>
                 </li>
                 <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
                   <CodeTag>Typescript</CodeTag>
@@ -215,7 +220,10 @@ export default function Workxperience() {
                 </a>
               </h3>
               <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-dark-purple">
-                <p className="m-0">My personal website and portfolio.</p>
+                <p className="m-0">
+                  Personal website and portfolio. Built with Next.JS, designed
+                  with TailwindCSS and hosted with on Ubuntu running Nginx.
+                </p>
               </div>
               <ul className="project-tech-list flex flex-wrap justify-start md:justify-end relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
                 <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
