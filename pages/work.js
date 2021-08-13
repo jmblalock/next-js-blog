@@ -106,7 +106,7 @@ export default function Workxperience() {
           </div>
         </li>
         <li className="grid grid-cols-12 gap-2.5 items-center relative visible mb-8 md:mb-24">
-          <div className="project-content flex flex-col h-full justify-center pb-5 px-6 pt-6 col-span-full row-span-full md:col-start-7 md:col-span-6 text-left md:text-right relative  z-50">
+          <div className="project-content flex flex-col h-full justify-center pb-5 px-6 pt-6 col-span-full row-span-full md:col-start-1 md:col-end-8 text-right md:text-left relative  z-50">
             <div>
               <p className="project-overline my-2.5 md:m-2.5 text-carolina-blue text-base font-normal">
                 Featured Project
@@ -123,29 +123,24 @@ export default function Workxperience() {
               </h3>
               <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-dark-purple">
                 <p className="m-0">
-                  Interactive traveling blog to post articles and learn from
-                  other user's experiences. Wayfarer also offers an internal API
-                  hosting 60+ destinations including travel tips and important
-                  info before you next vacation!
+                  Zip Code Collective is an online shopping experience focused
+                  on supporting local businesses.
                 </p>
               </div>
-              <ul className="project-tech-list flex flex-wrap justify-start md:justify-end relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
+              <ul className="project-tech-list flex flex-wrap justify-start md:justify-start relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
                 <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
                   <CodeTag>React</CodeTag>
                 </li>
                 <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
-                  <CodeTag>Next.js</CodeTag>
-                </li>
-                <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
-                  <CodeTag>Keystone.js</CodeTag>
-                </li>
-                <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
                   <CodeTag>GraphQL</CodeTag>
                 </li>
+                <li className="mt-0 ml-0 mb-1.5 mr-2.5 md:ml-5 whitespace-normal">
+                  <CodeTag>Typescript</CodeTag>
+                </li>
               </ul>
-              <div className="project-links flex justify-start md:justify-end items-center relative mr-0 -ml-2.5 md:ml-0 md:-mr-2.5 mt-2.5">
+              <div className="project-links flex justify-start md:justify-start items-center relative mr-0 -ml-2.5 md:ml-0 md:-mr-2.5 mt-2.5">
                 <a
-                  href="https://github.com/jmblalock/exploring-odyssey"
+                  href="https://github.com/jmblalock/zcc"
                   aria-label="GitHub Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -166,7 +161,7 @@ export default function Workxperience() {
                   </svg>
                 </a>
                 <a
-                  href="https://eo-wayfarer.herokuapp.com/"
+                  href="https://app.zipcodecollective.com/"
                   aria-label="Heroku Deployment"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -187,9 +182,9 @@ export default function Workxperience() {
               </div>
             </div>
           </div>
-          <div className="project-image h-full col-start-1 col-span-full md:col-end-8 row-span-full relative z-10">
+          <div className="project-image h-full col-start-1 col-span-full md:col-start-7 md:col-span-full row-span-full relative z-10">
             <a
-              href="https://eo-wayfarer.herokuapp.com/"
+              href="https://app.zipcodecollective.com/"
               rel="noopener noreferrer"
               target="_blank"
               className="relative inline-block no-underline z-10 bg-dark-blue md:bg-carolina-blue align-middle cursor-pointer h-full w-full rounded"
