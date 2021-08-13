@@ -42,9 +42,9 @@ export default function About() {
           </picture>
         </div>
         <p className="order-3 md:order-4 md:self-center md:col-span-3 tracking-wider text-xl text-gray-400">
-          When I'm not coding, I enjoy traveling, biking, snowboarding and
-          adventuring with my beautiful wife and our two troublemakers, Remy and
-          Quincy.
+          When I'm not coding, I enjoy listening to live music, traveling,
+          biking, snowboarding and adventuring with my beautiful wife and our
+          two troublemakers, Quincy and Remy.
         </p>
         <div className="order-5 md:order-5 md:self-center md:col-span-3 tracking-wider text-xl text-gray-400">
           Here are a few technologies I've been working with recently:
