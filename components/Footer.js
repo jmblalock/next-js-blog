@@ -1,9 +1,12 @@
 export default function Footer() {
   return (
-    <div className="container mx-auto py-12 px-6 xsm:px-8 md:px-12 md:py-24">
-      <div className="pt-12 md:pt-32 pb-4">
-        <p className="flex flex-col text-gray-400">Footer</p>
+    <footer className="flex border-box items-center flex-col h-auto justify-center min-h-full p-5">
+      <div className="border-box block mb-2.5 mx-auto mt-0 max-w-xs w-full">
+        <ul className="flex">
+          <li></li>
+        </ul>
       </div>
-    </div>
+      <span className="text-gray-400">Designed & Built by Justin Blalock</span>;
+    </footer>
   );
 }

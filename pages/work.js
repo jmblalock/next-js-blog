@@ -2,7 +2,7 @@ import Container from "../components/Container";
 import CodeTag from "../components/CodeTag";
 import Image from "next/image";
 
-export default function Workxperience() {
+export default function Work() {
   return (
     <Container>
       <h2 className="flex items-center opacity-100 text-green-cyan text-4xl font-mono mt-2.5 mb-12">
@@ -123,9 +123,9 @@ export default function Workxperience() {
               <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-dark-purple">
                 <p className="m-0">
                   Zip Code Collective (ZCC) is an online shopping experience
-                  with a focus on supporting local businesses. ZCC's frontend
-                  and backend are hosted on Heroku and DigitalOcean
-                  respectively.
+                  with a focus on supporting local businesses. The app includes
+                  authentication, permissions, sending email, uploading images,
+                  and charging credit cards.
                 </p>
               </div>
               <ul className="project-tech-list flex flex-wrap justify-start md:justify-start relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
@@ -221,8 +221,9 @@ export default function Workxperience() {
               </h3>
               <div className="project-description relative z-20 px-0 py-5 md:p-6 text-lg md:bg-dark-purple">
                 <p className="m-0">
-                  Personal website and portfolio. Built with Next.JS, designed
-                  with TailwindCSS and hosted with on Ubuntu running Nginx.
+                  You are here! My personal website and portfolio. Built with
+                  Next.JS, designed with TailwindCSS and hosted with Nginx on
+                  Digital Ocean.
                 </p>
               </div>
               <ul className="project-tech-list flex flex-wrap justify-start md:justify-end relative z-20 mt-2.5 md:mt-6 mb-2.5 p-0 list-none">
