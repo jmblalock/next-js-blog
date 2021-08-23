@@ -74,7 +74,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <span className="text-gray-400">Designed & Built by Justin Blalock</span>;
+      <span className="text-gray-400">Designed & Built by Justin Blalock</span>
     </footer>
   );
 }

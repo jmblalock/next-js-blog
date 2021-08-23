@@ -15,8 +15,12 @@ export default function Nav() {
       <Link href="/contact">
         <a className="text-carolina-blue hover:text-orange-pantone">Contact</a>
       </Link>
-      <Link href="/resume">
-        <a className="px-4 py-4 leading-none border rounded text-carolina-blue border-orange-pantone hover:text-orange-pantone">
+      <Link href="/Justin Blalock Resume.pdf" passHref={true}>
+        <a
+          className="px-4 py-4 leading-none border rounded text-carolina-blue border-orange-pantone hover:text-orange-pantone"
+          target="_blank"
+          rel="noreferrer"
+        >
           Resume
         </a>
       </Link>

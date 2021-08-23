@@ -15,7 +15,7 @@ export default function Home() {
             strings={[
               "Justin Blalock.",
               "I design and",
-              "code things",
+              "build things",
               "for the web.",
               "Justin Blalock,",
             ]}

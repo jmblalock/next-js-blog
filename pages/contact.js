@@ -4,7 +4,7 @@ import Link from "next/dist/client/link";
 export default function Contact() {
   return (
     <Container>
-      <section className="">
+      <section className="flex flex-col place-items-center">
         <h2 className="py-4 text-carolina-blue text-lg font-mono pb-5">
           What's Next?
         </h2>
