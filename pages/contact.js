@@ -11,7 +11,7 @@ export default function Contact() {
         <h2 className="text-green-cyan text-4xl font-mono pb-5">
           Get In Touch
         </h2>
-        <p className="text-2xl text-gray-400">
+        <p className="text-center text-2xl text-gray-400">
           I am currently seeking new opportunities.
         </p>
         <button className="flex pt-12">
