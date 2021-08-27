@@ -96,7 +96,7 @@ export default function Work() {
             >
               <div className="image-wrapper img inline-block max-w-full h-full w-full overflow-hidden relative align-middle rounded object-cover mix-blend-multiply">
                 <Image
-                  src="/images/wayfarer.png"
+                  src="https://res.cloudinary.com/dybboi2zd/image/upload/v1630018310/justinblalock.dev/wayfarer_yk6o68.png"
                   layout="fill"
                   objectFit="cover"
                 ></Image>
@@ -195,7 +195,7 @@ export default function Work() {
             >
               <div className="image-wrapper img inline-block max-w-full h-full w-full overflow-hidden relative align-middle rounded object-cover mix-blend-multiply">
                 <Image
-                  src="/images/zipcodecollective.png"
+                  src="https://res.cloudinary.com/dybboi2zd/image/upload/v1630018310/justinblalock.dev/zipcodecollective_u3y1j0.png"
                   layout="fill"
                   objectFit="cover"
                 ></Image>
@@ -290,7 +290,7 @@ export default function Work() {
             >
               <div className="image-wrapper img inline-block max-w-full h-full w-full overflow-hidden relative align-middle rounded object-cover mix-blend-multiply">
                 <Image
-                  src="/images/justinblalockdev.png"
+                  src="https://res.cloudinary.com/dybboi2zd/image/upload/v1630018312/justinblalock.dev/justinblalockdev_t2z6pu.png"
                   layout="fill"
                   objectFit="cover"
                 ></Image>
